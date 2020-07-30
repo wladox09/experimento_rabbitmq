@@ -1,0 +1,25 @@
+{
+  "name": "experimento_rabbitmq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "emiter": "node emiter.js",
+    "consumer": "node consumer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wladox09/experimento_rabbitmq.git"
+  },
+  "author": "wladox09",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wladox09/experimento_rabbitmq/issues"
+  },
+  "homepage": "https://github.com/wladox09/experimento_rabbitmq#readme",
+  "dependencies": {
+    "amqplib": "^0.6.0",
+    "nodemon": "^2.0.4",
+    "uuid": "^8.3.0"
+  }
+}
